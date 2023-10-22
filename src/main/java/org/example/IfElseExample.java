@@ -7,7 +7,7 @@ public class IfElseExample {
 
         // if I'm adult print "I'm adult"
         // otherwise print "Just a kid"
-        int age = 15;
+        int age = 20;
         if (age >= 18) {
             System.out.println("I'm adult");
         }
@@ -24,5 +24,7 @@ public class IfElseExample {
             System.out.println("Else, if was false");
             System.out.println("Kid");
         }
+
+        System.out.println("Always printed");
     }
 }
